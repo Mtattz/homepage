@@ -1,20 +1,21 @@
-*{
-    margin: 10px;
-    padding: 10x;
-    border: 0px;
+body {
     font-family: sans-serif;
-    
 }
-
-div{
-    background: rgb(224, 222, 222);
-    
+h1 {
+    text-align: center;
+    color: forestgreen;
+    margin: 30px 0 50px;
 }
-
-textarea{
-    margin: 10px; width: 352px; height: 125px;
+.gallery{
+    margin: 10px 50px;
 }
-
-.twitter,.instagram,.linkedin{
-    color: black;
+.gallery img{
+    width: 230px;
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+.gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
 }
